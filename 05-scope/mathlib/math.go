@@ -2,7 +2,7 @@ package mathlib
 
 import "fmt"
 
-var money =1000
+var money =1000 // global variable can be unused. compiler skip this
 
 var Poysa =0.00
 
