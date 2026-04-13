@@ -41,4 +41,6 @@ func main() {
 	// A Application
 	app()
 	
+//  need to run both file
+// go run main.go app.go
 }
