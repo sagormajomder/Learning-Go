@@ -9,6 +9,8 @@ func call(){
 	// add() function also in code segment in the compile phase.
 	// call() function just reference it in its stack frame in the execution phase.
 	// As nested function, add() is bind with call(). So only call() function can access add() function. 
+	// In compile phase, It just a anonymous function which is bind with call() function. 
+	// The anonymous function store into add variable in execution phase, not compile phase.
     add:=func (x int, y int){
         z:=x+y
         fmt.Println(z)
@@ -77,7 +79,7 @@ func init(){
 /*
 		a=10
 		call = func() {....}
-		add = func () {....}
+		callAnonymous = func () {....}
 		main = func () {....}
 		init = func () {....}
 */
