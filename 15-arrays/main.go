@@ -17,3 +17,16 @@ func main() {
 
 
 }
+
+//! Simulation 
+
+// ************* Compile Phase **************
+// **Code segment**
+/*
+		main = func(){...}
+*/
+
+// **Data Segment**
+/*
+	arr3 = ["I","Love","You"]
+*/
