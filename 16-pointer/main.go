@@ -75,5 +75,4 @@ func main() {
 
 // **Data Segment**
 /*
-	p=100
 */
